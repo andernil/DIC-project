@@ -1,0 +1,1 @@
+AIM-Spice files for the Design of Integrated Circuits project. Change the file location of the transistors and diode to suit your computer.
