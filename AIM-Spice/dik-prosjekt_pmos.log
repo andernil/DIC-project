@@ -1,0 +1,168 @@
+
+                 *********************************************
+                 *                                           *
+                 *             A I M - S p i c e             *
+                 *                                           *
+                 *         Professional Version 2017.110           *
+                 *                                           *
+                 *********************************************
+
+	Date: Fri Oct 27 15:46:34 2017
+	Circuit File: C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\dik-prosjekt_pmos.cir
+	Analysis: Transient
+
+**************************  Circuit Description  **************************
+
+     1:  Transistor test
+     2:  *include C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\PhotoDiodeSubCircuit.cir
+     3:  ****Photo Diode
+     4:  .subckt PhotoDiode  VDD N1_R1C1 
+     5:  I1_R1C1 	VDD	 	N1_R1C1 	 DC		Ipd_1
+     6:  d1 N1_R1C1 vdd dwell 1
+     7:  .model dwell d cj0=1e-14 is=1e-12 m=0.5 bv=40
+     8:  Cd1 N1_R1C1 VDD 30f
+     9:  .ends PhotoDiode
+    10:  *********
+    11:  *end of: C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\PhotoDiodeSubCircuit.cir
+    12:  *include C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\nmos_model.cir
+    13:  *model = bsim3v3
+    14:  *Berkeley Spice Compatibility 
+    15:  * Lmin= .35 Lmax= 20 Wmin= .6 Wmax= 20
+    16:  .model nm nmos
+    17:  +Level=17 
+    18:  +Tnom=27.0
+    19:  +Nch= 2.498E+17  Tox=9E-09 Xj=1.00000E-07
+    20:  +Lint=9.36e-8 Wint=1.47e-7
+    21:  +Vth0= .6322    K1= .756  K2= -3.83e-2  K3= -2.612 
+    22:  +Dvt0= 2.812  Dvt1= 0.462  Dvt2=-9.17e-2 
+    23:  +Nlx= 3.52291E-08  W0= 1.163e-6 
+    24:  +K3b= 2.233 
+    25:  +Vsat= 86301.58  Ua= 6.47e-9  Ub= 4.23e-18  Uc=-4.706281E-11 
+    26:  +Rdsw= 650  U0= 388.3203 wr=1
+    27:  +A0= .3496967 Ags=.1    B0=0.546    B1= 1   
+    28:  + Dwg = -6.0E-09 Dwb = -3.56E-09 Prwb = -.213
+    29:  +Keta=-3.605872E-02  A1= 2.778747E-02  A2= .9 
+    30:  +Voff=-6.735529E-02  NFactor= 1.139926  Cit= 1.622527E-04 
+    31:  +Cdsc=-2.147181E-05   
+    32:  +Cdscb= 0  Dvt0w =  0 Dvt1w =  0 Dvt2w =  0 
+    33:  + Cdscd =  0 Prwg =  0 
+    34:  +Eta0= 1.0281729E-02  Etab=-5.042203E-03 
+    35:  +Dsub= .31871233 
+    36:  +Pclm= 1.114846  Pdiblc1= 2.45357E-03  Pdiblc2= 6.406289E-03 
+    37:  +Drout= .31871233  Pscbe1= 5000000  Pscbe2= 5E-09 Pdiblcb = -.234
+    38:  +Pvag= 0 delta=0.01
+    39:  + Wl =  0 Ww = -1.420242E-09 Wwl =  0 
+    40:  + Wln =  0 Wwn =  .2613948 Ll =  1.300902E-10 
+    41:  + Lw =  0 Lwl =  0 Lln =  .316394 
+    42:  + Lwn =  0
+    43:  +kt1=-.3  kt2=-.051 
+    44:  +At= 22400 
+    45:  +Ute=-1.48 
+    46:  +Ua1= 3.31E-10  Ub1= 2.61E-19 Uc1= -3.42e-10 
+    47:  +Kt1l=0 Prt=764.3
+    48:  
+    49:  *end of: C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\nmos_model.cir
+    50:  *include C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\pmos_model.cir
+    51:  .model pm pmos
+    52:  +Level=17
+    53:  +Tnom=27.0
+    54:  +Nch= 3.533024E+17  Tox=9E-09 Xj=1.00000E-07
+    55:  +Lint=6.23e-8 Wint=1.22e-7
+    56:  +Vth0=-.6732829 K1= .8362093  K2=-8.606622E-02  K3= 1.82 
+    57:  +Dvt0= 1.903801  Dvt1= .5333922  Dvt2=-.1862677 
+    58:  +Nlx= 1.28e-8  W0= 2.1e-6 
+    59:  +K3b= -0.24 Prwg=-0.001 Prwb=-0.323 
+    60:  +Vsat= 103503.2  Ua= 1.39995E-09  Ub= 1.e-19  Uc=-2.73e-11 
+    61:  + Rdsw= 460  U0= 138.7609 
+    62:  +A0= .4716551 Ags=0.12 
+    63:  +Keta=-1.871516E-03  A1= .3417965  A2= 0.83 
+    64:  +Voff=-.074182  NFactor= 1.54389  Cit=-1.015667E-03 
+    65:  +Cdsc= 8.937517E-04 
+    66:  +Cdscb= 1.45e-4  Cdscd=1.04e-4
+    67:  + Dvt0w=0.232 Dvt1w=4.5e6 Dvt2w=-0.0023
+    68:  +Eta0= 6.024776E-02  Etab=-4.64593E-03 
+    69:  +Dsub= .23222404 
+    70:  +Pclm= .989  Pdiblc1= 2.07418E-02  Pdiblc2= 1.33813E-3 
+    71:  +Drout= .3222404  Pscbe1= 118000  Pscbe2= 1E-09 
+    72:  +Pvag= 0 
+    73:  +kt1= -0.25  kt2= -0.032 prt=64.5 
+    74:  +At= 33000 
+    75:  +Ute= -1.5 
+    76:  +Ua1= 4.312e-9 Ub1= 6.65e-19  Uc1= 0 
+    77:  +Kt1l=0
+    78:  
+    79:  *end of: C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\pmos_model.cir
+    80:  .model nm nmos
+    81:  .model pm pmos
+    82:  .model dwell d
+    83:  
+    84:  .param Ipd_1=200pA-3nA		!Define the current range for the photo-diode
+    85:  
+    86:  vdd vdd 0 dc 5 			!Define VDD		
+    87:  vex expose 0 dc 3.3 pulse(0 3.3 0ms 1ns 1ns 30ms)		!Gate-signal for the Expose-switch
+    88:  ver erase 0 dc 0 pulse(0 3.3 46ms 1ns 1ns 5ms) 		!Gate-signal for the Erase-switch
+    89:  vnr nre 0 dc 0 pulse(0 3.3 31ms 1ns 1ns 15ms)		!Gate-signal for the NRE-switch
+    90:  
+    91:  vip n1 n1_out dc 0		!Ampere-meter for the current from the photo diode
+    92:  vm3 n2 n2_out dc 0			!Ampere-meter for the current to M3
+    93:  
+    94:  dphoto n1 vdd dwell					!Define the photo-diode from VDD to wire N1
+    95:  id vdd n1 dc 0 pulse(0 200p 0ms 1ns 1ns 20ms)	!Define the current source of the photo-diode
+    96:  mexpose n1_out expose n2 0 nm w=6u l=1u			!Define the expose-NMOS m1 from wire N1 to N2
+    97:  merase n2 erase 0 0 nm w=6u l=1u			!Define the erase-NMOS m2 from wire N2 to VSS (ground)
+    98:  cs n2 0 2p							!Define the charge-capacitor Cs from wire N2 to VSS (ground)
+    99:  
+   100:  mload out out vdd vdd pm w=1u l=5u		!Define the load-PMOS from VDD to out-wire.
+   101:  cc out 0 3p						!Define the parasitic capacitance of the load-wire
+   102:  mnre n3 nre out vdd pm w=6u l=1u		!Define the NRE-NMOS M4 from the load-wire to N3
+   103:  m3 0 n2_out n3 vdd pm w=10u l=1u 		!Define the amplifier-NMOS M3 from N3 to VSS (ground)
+   104:  .tran 0.001 .06
+
+***************************  Model Parameters  ****************************
+
+
+***************  Device Parameters (Only for .op analysis)  ***************
+
+
+
+**************************  Analysis Parameters  **************************
+
+	Stepsize ............ : 0.001
+	Final time .......... : .06
+	Use Initial Conditions: Off
+
+
+
+**************  Options (Only those different from default)  **************
+
+
+
+*************************  Simulation Statistics  *************************
+
+	Total number of iterations.....................: 649
+	Number of iterations for transient analysis....: 622
+	Total number of timepoints.....................: 151
+	Number of timepoints accepted..................: 128
+	Number of timepoints rejected..................: 23
+	Total analysis time (sec)......................: 0.014
+	Transient analysis time (sec)..................: 0.014
+	Time spent in device loading (sec).............: 0.003
+	Time spent in L-U decomposition (sec)..........: 0
+	Time spent in matrix reordering (sec)..........: 0
+	Time spent in matrix solving (sec).............: 0
+	Time spent in transient L-U decomposition (sec): 0
+	Time spent in transient matrix solving (sec)...: 0
+
+***************************  Kernel Messages  *****************************
+
+Circuit: Transistor test
+
+Warning: Pd = 0 is less than W for m3 in model pm.
+Warning: Ps = 0 is less than W for m3 in model pm.
+Warning: Pd = 0 is less than W for mnre in model pm.
+Warning: Ps = 0 is less than W for mnre in model pm.
+Warning: Pd = 0 is less than W for mload in model pm.
+Warning: Ps = 0 is less than W for mload in model pm.
+Warning: Pd = 0 is less than W for merase in model nm.
+Warning: Ps = 0 is less than W for merase in model nm.
+
