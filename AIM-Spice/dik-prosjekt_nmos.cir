@@ -1,6 +1,6 @@
 [aimspice]
 [description]
-1279
+1329
 Transistor test
 .include C:\Users\Anders\Downloads\PhotoDiodeSubCircuit.cir
 .include C:\Users\Anders\Documents\AIM-spice\nmos_model.cir
@@ -16,16 +16,16 @@ vex expose 0 dc 0 pulse(0 3.3 0ms 1ns 1ns 20ms)		!Gate-signal for the Expose-swi
 ver erase 0 dc 0 pulse(0 3.3 35ms 1ns 1ns 5ms) 		!Gate-signal for the Erase-switch
 vnr nre 0 dc 0 pulse(0 3.3 20ms 1ns 1ns 15ms)		!Gate-signal for the NRE-switch
 
-dphoto n1 vdd dwell				!Define the photo-diode from VDD to wire N1
-id vdd n1 dc pulse (0 200p 0ms 1ns 1ns 20ms)
-mexpose n1 expose n2 0 nm w=5u l=1u		!Define the expose-NMOS m1 from wire N1 to N2
-merase n2 erase 0 0 nm w=5u l=1u		!Define the erase-NMOS m2 from wire N2 to VSS (ground)
-cs n2 0 2p						!Define the charge-capacitor Cs from wire N2 to VSS (ground)
+dphoto n1 vdd dwell					!Define the photo-diode from VDD to wire N1
+id vdd n1 dc pulse (0 200p 0ms 1ns 1ns 20ms)	!Define the current source of the photo-diode
+mexpose n1 expose n2 0 nm w=5u l=1u			!Define the expose-NMOS m1 from wire N1 to N2
+merase n2 erase 0 0 nm w=5u l=1u			!Define the erase-NMOS m2 from wire N2 to VSS (ground)
+cs n2 0 2p							!Define the charge-capacitor Cs from wire N2 to VSS (ground)
 
-mload vdd out out vdd pm w=2u l=5u		!Define the load-PMOS from VDD to out-wire.
+mload out out vdd vdd pm w=1u l=5u		!Define the load-PMOS from VDD to out-wire.
 cc out 0 3p						!Define the parasitic capacitance of the load-wire
 mnre out nre n3 0 nm w=5u l=1u		!Define the NRE-NMOS M4 from the load-wire to N3
-m3 n3 n2 0 0 nm w=10u l=1u 			!Define the amplifier-NMOS M3 from N3 to VSS (ground)
+m3 n3 n2 0 0 nm w=10u l=1u 			!Define the amplifier-PMOS M3 from N3 to VSS (ground)
 [ac]
 2
 50
@@ -33,10 +33,17 @@ m3 n3 n2 0 0 nm w=10u l=1u 			!Define the amplifier-NMOS M3 from N3 to VSS (grou
 1G
 [tran]
 0.001
-.1
+40ms
 X
 X
-0
+1
 [ana]
-4 0
+4 1
+0
+1 1
+1 1 -2 8
+3
+v(n2)
+v(out)
+v(n3)
 [end]
