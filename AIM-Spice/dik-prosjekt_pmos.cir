@@ -1,53 +1,31 @@
 [aimspice]
 [description]
-1580
+1359
 Transistor test
-.include C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\PhotoDiodeSubCircuit.cir
-.include C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\nmos_model.cir
-.include C:\Users\Anders\Desktop\Skole\DIK\Prosjekt\DIC-project\AIM-Spice\pmos_model.cir
+.include C:\Users\Anders\Downloads\PhotoDiodeSubCircuit.cir
+.include C:\Users\Anders\Documents\AIM-spice\nmos_model.cir
+.include C:\Users\Anders\Downloads\pmos_model.cir
 .model nm nmos
 .model pm pmos
 .model dwell d
 
-.param Ipd_1=200pA-3nA		!Define the current range for the photo-diode
+.param Ipd_1=200p-3n		!Define the current range for the photo-diode
 
-vdd vdd 0 dc 5 			!Define VDD		
-vex expose 0 dc 0 pulse(0 3.3 0ms 1ns 1ns 30ms)		!Gate-signal for the Expose-switch
-ver erase 0 dc 0 pulse(0 3.3 46ms 1ns 1ns 5ms) 		!Gate-signal for the Erase-switch
-vnr nre 0 dc 0 pulse(0 3.3 31ms 1ns 1ns 15ms)		!Gate-signal for the NRE-switch
+vdd vdd 0 dc 5			!Define VDD		
+vex expose 0 dc 0 pulse(0 3.3 0ms 1ns 1ns 20ms)		!Gate-signal for the Expose-switch
+ver erase 0 dc 3.3 pulse(0 3.3 35ms 1ns 1ns 5ms) 	!Gate-signal for the Erase-switch
+vnr nre 0 dc 3.3 pulse(3.3 0 20ms 1ns 1ns 15ms)		!Gate-signal for the NRE-switch
+vamp out outa dc 0 
 
-vip n1 n1_out dc 0		!Ampere-meter for the current from the photo diode
-vm3 n2 n2_out dc 0			!Ampere-meter for the current to M3
 
 dphoto n1 vdd dwell					!Define the photo-diode from VDD to wire N1
-id vdd n1 dc 0 pulse(0 200p 0ms 1ns 1ns 20ms)	!Define the current source of the photo-diode
-mexpose n1_out expose n2 0 nm w=6u l=1u		!Define the expose-NMOS m1 from wire N1 to N2
-merase n2 erase 0 0 nm w=6u l=1u			!Define the erase-NMOS m2 from wire N2 to VSS (ground)
+id vdd n1 dc pulse (0 200p 0ms 1ns 1ns 20ms)	!Define the current source of the photo-diode
+mexpose n1 expose n2 0 nm w=5u l=1u			!Define the expose-NMOS m1 from wire N1 to N2
+merase n2 erase 0 0 nm w=10u l=1u			!Define the erase-NMOS m2 from wire N2 to VSS (ground)
 cs n2 0 2p							!Define the charge-capacitor Cs from wire N2 to VSS (ground)
 
-mload out out vdd vdd pm w=1u l=5u		!Define the load-PMOS from VDD to out-wire.
+mload out out vdd vdd pm w=2u l=5u		!Define the load-PMOS from VDD to out-wire.
 cc out 0 3p						!Define the parasitic capacitance of the load-wire
-mnre n3 nre out vdd pm w=6u l=1u		!Define the NRE-NMOS M4 from the load-wire to N3
-m3 0 n2_out n3 vdd pm w=10u l=1u 		!Define the amplifier-NMOS M3 from N3 to VSS (ground)
-[ac]
-2
-50
-1
-1G
-[tran]
-0.001
-.06
-X
-X
-0
-[ana]
-4 1
-0
-1 1
-1 1 -1 5
-4
-v(n1)
-v(n2)
-v(out)
-v(n3)
+mnre n3 nre outa vdd pm w=5u l=1u		!Define the NRE-NMOS M4 from the load-wire to N3
+m3 0 n2 n3 vdd pm w=10u l=1u 			!Define the amplifier-PMOS M3 from N3 to VSS (ground)
 [end]
