@@ -1,4 +1,4 @@
-					 				//Initial Verilog program 
+					 				//Initial Verilog program used for reference in the state-machine design
 /*
 module Full_Adder(
 	input A,
