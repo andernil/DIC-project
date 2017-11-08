@@ -1,4 +1,4 @@
-139
+140
 ~M 0 "" 0 $root
 ~A 1 "" 0 $root
 ~M 1 "./../src/full_adder.v" 42 Full_Adder
@@ -7,11 +7,11 @@
 ~A 1 "./../src/full_adder.v" 18 Full_Adder_8bit
 ~M 1 "./../src/Main.v" 3 camera_control
 ~A 1 "./../src/Main.v" 3 camera_control
-~M 3 "./../src/camera_tb.v" 25 camera_tb
-~A 1 "./../src/camera_tb.v" 25 camera_tb
+~M 3 "./../src/camera_tb.v" 23 camera_tb
+~A 1 "./../src/camera_tb.v" 23 camera_tb
 ~M 3 "./../src/Main.v" 105 expose
 ~A 1 "./../src/Main.v" 105 expose
 ~M 3 "./../src/Main.v" 100 exposure_control
 ~A 1 "./../src/Main.v" 100 exposure_control
-~M 3 "./../src/adder_tb.v" 3 fulladdertb
-~A 1 "./../src/adder_tb.v" 3 fulladdertb
+~M 3 "./../src/adder_tb.v" 5 fulladdertb
+~A 1 "./../src/adder_tb.v" 5 fulladdertb
