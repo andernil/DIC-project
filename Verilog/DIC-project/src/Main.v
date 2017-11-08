@@ -105,8 +105,8 @@ begin: FSM
 			end
 		end		
 		else if (adc_conversion == 1) begin	
-			$display("Conversion finished");
-			state <= idle;
+			$display("Conversion finished");					 			//After the conversion is finished the state goes to idle again, resetting the counters and erasing
+			state <= idle;												  	//the charge from the capacitors.
 	end
 	endcase			
 end	
