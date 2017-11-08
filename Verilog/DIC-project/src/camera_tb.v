@@ -60,7 +60,7 @@ begin
 end
 
 initial
-begin		  				//Define the monitor outputs. Writes the different states to the console. Using uut.variable enables the monitoring of internal signals in the camera controller
+begin		  				//Define the monitor outputs. Writes the different states to the console. Using uut.variable enables the monitoring of internal signals in the camera controller.
 $monitor("time = %2d, clk_in =%b, init_in=%b, reset_in=%b, exp_inc_in=%b, exp_dec_in=%b, nre1_out=%b, nre2_out=%b, expose_out=%b, erase_out=%b, adc_out= %b, exp_time= %d, exp_count = %d, adc_read_cycle = %d", $time,clk_in,init_in,reset_in,exp_inc_in,exp_dec_in,nre1_out,nre2_out,expose_out,erase_out,adc_out,uut.exp_time, uut.exp_count, uut.adc_read_cycle);
 end
 endmodule
