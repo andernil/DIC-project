@@ -7,7 +7,7 @@
                  *                                           *
                  *********************************************
 
-	Date: Fri Nov  3 14:19:14 2017
+	Date: Fri Nov  3 14:10:03 2017
 	Circuit File: C:\Users\Anders\Documents\AIM-spice\DIK-project\AIM-Spice\dik-prosjekt_pmos.cir
 	Analysis: Transient
 
@@ -115,7 +115,7 @@
    100:  cc out 0 3p						!Define the parasitic capacitance of the load-wire
    101:  mnre n3 nre outa vdd pm w=5u l=1u		!Define the NRE-NMOS M4 from the load-wire to N3
    102:  m3 0 n2 n3 vdd pm w=10u l=1u 			!Define the amplifier-PMOS M3 from N3 to VSS (ground)
-   103:  .tran 0.1 40ms
+   103:  .tran 0.001 .05 uic 
 
 ***************************  Model Parameters  ****************************
 
@@ -126,9 +126,9 @@
 
 **************************  Analysis Parameters  **************************
 
-	Stepsize ............ : 0.1
-	Final time .......... : 40ms
-	Use Initial Conditions: Off
+	Stepsize ............ : 0.001
+	Final time .......... : .05
+	Use Initial Conditions: On
 
 
 
@@ -138,18 +138,18 @@
 
 *************************  Simulation Statistics  *************************
 
-	Total number of iterations.....................: 302
-	Number of iterations for transient analysis....: 275
-	Total number of timepoints.....................: 98
-	Number of timepoints accepted..................: 87
-	Number of timepoints rejected..................: 11
-	Total analysis time (sec)......................: 0.011
-	Transient analysis time (sec)..................: 0.009
+	Total number of iterations.....................: 357
+	Number of iterations for transient analysis....: 357
+	Total number of timepoints.....................: 109
+	Number of timepoints accepted..................: 93
+	Number of timepoints rejected..................: 16
+	Total analysis time (sec)......................: 0.012
+	Transient analysis time (sec)..................: 0.008
 	Time spent in device loading (sec).............: 0.002
-	Time spent in L-U decomposition (sec)..........: 0.001
+	Time spent in L-U decomposition (sec)..........: 0
 	Time spent in matrix reordering (sec)..........: 0
 	Time spent in matrix solving (sec).............: 0
-	Time spent in transient L-U decomposition (sec): 0.001
+	Time spent in transient L-U decomposition (sec): 0
 	Time spent in transient matrix solving (sec)...: 0
 
 ***************************  Kernel Messages  *****************************

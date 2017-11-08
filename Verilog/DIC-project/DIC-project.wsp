@@ -1,0 +1,24 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+DIC-project=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\Main.v]
+FileTimeLow=30627006
+Status=Modified
+[CACHEDOC|Aldec.Project.Generic.7|.\DIC-project\DIC-project.adf|]
+Path=
+[COMPILESTATUS|.\src\adder_tb.v]
+FileTimeLow=30626773
+Status=Compiled
+[COMPILESTATUS|.\src\full_adder.v]
+FileTimeLow=30626986
+Status=Compiled
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\DIC-project\src/adder_tb.v|]
+CurrentLine=0
+CurrentColumn=20
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////8sAAAB6AAAAAAYAAHECAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[Gui config]
+RunFor=0ns

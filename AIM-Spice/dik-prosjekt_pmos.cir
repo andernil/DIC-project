@@ -28,4 +28,19 @@ mload out out vdd vdd pm w=2u l=5u		!Define the load-PMOS from VDD to out-wire.
 cc out 0 3p						!Define the parasitic capacitance of the load-wire
 mnre n3 nre outa vdd pm w=5u l=1u		!Define the NRE-NMOS M4 from the load-wire to N3
 m3 0 n2 n3 vdd pm w=10u l=1u 			!Define the amplifier-PMOS M3 from N3 to VSS (ground)
+[tran]
+0.1
+40ms
+X
+X
+0
+[ana]
+4 1
+0
+1 1
+1 1 0 5
+3
+v(out)
+v(n2)
+v(n3)
 [end]

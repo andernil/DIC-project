@@ -1,0 +1,4 @@
+.\src\Main.v
+.\src\camera_tb.v
+.\src\adder_tb.v
+.\src\full_adder.v
