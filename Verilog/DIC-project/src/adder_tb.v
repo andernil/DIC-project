@@ -1,3 +1,5 @@
+//Test bench for an 8-bit full adder. Used as reference while designing the testbench for the camera controller.
+
 `timescale 1ns / 100ps 
  
 module fulladdertb; 
