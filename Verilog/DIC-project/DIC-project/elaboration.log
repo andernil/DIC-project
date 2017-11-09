@@ -1,4 +1,4 @@
-Active-HDL 10.3.3559.6081  2017-11-09 19:03:51
+Active-HDL 10.3.3559.6081  2017-11-09 19:11:32
 
 Elaboration top modules:
 Verilog Module                camera_tb
@@ -16,9 +16,3 @@ Library                 | Comment
 -----------------------------------------------------------------------------------------------
 dic-project             | None
 -----------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+camera_tb camera_tb
-
-
-The performance of simulation is reduced. Version Student Edition

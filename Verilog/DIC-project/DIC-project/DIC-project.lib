@@ -1,9 +1,10 @@
-timestamp=1510250575741
+timestamp=1510251091941
 
 [~A]
+C:/git/DIC-project/Verilog/DIC-project/src/Main.v=0*382988*384406
 C:/git/DIC-project/Verilog/DIC-project/src/Main.v_camera_tb.v=0*379933*381875
 LastVerilogToplevel=camera_tb
-ModifyID=148
+ModifyID=149
 Version=74
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v=0*373107*374586
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_adder_tb.v=0*57960*59082
@@ -15,10 +16,10 @@ c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/adder_tb
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/camera_tb.v=0*377598*378569
 
 [$root]
-A/$root=22|||1*754466
-BinI32/$root=3*600236
-SLP=3*600340
-Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216c9bb33f3d22c24a9299e972ce762957a
+A/$root=22|||1*761073
+BinI32/$root=3*607666
+SLP=3*607770
+Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216535afcf29d6c5b1a5d89b59697cf13b7
 
 [Full_Adder]
 A/Full_Adder=22|./../src/full_adder.v|42|1*729252
@@ -35,11 +36,11 @@ SLP=3*568103
 Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|473d9258e8587eb705a1446133b6368c79e0a835edda078724375eda13f131559328fba3cc3a9a2f7a1b9272ea9a286b
 
 [camera_control]
-A/camera_control=22|./../src/Main.v|3|1*754872
-BinI32/camera_control=3*600408
+A/camera_control=22|./../src/Main.v|3|1*761479
+BinI32/camera_control=3*607838
 R=./../src/Main.v|3
-SLP=3*603413
-Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3ec2255110f63325f288f546e8317168985b512a1ae468c26b20d048f77dbfba8a48deaa9f814fe312578addc0ac712
+SLP=3*610859
+Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3ec2255110f63325f288f546e8317168985b512a1ae468c26b20d048f77dbfb54f6008cc8362814cc32c8acdee0f634
 
 [camera_tb]
 A/camera_tb=22|./../src/camera_tb.v|23|1*758153
@@ -70,15 +71,15 @@ SLP=3*567464
 Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3aba5436d60dc2a1995213cd7debcd3ae168486e3641c10833b56b3ec7ac7990f3833e72088fb6ebc5dfc5387a039b8
 
 [~MFT]
-0=5|0DIC-project.mgf|381875|257919
-1=6|1DIC-project.mgf|758153|748038
-3=12|3DIC-project.mgf|606891|596822
+0=4|0DIC-project.mgf|384406|257919
+1=4|1DIC-project.mgf|761479|751725
+3=8|3DIC-project.mgf|610859|601713
 
 [~U]
-$root=12|0*379165|
+$root=12|0*382417|
 Full_Adder=12|0*359255|
 Full_Adder_8bit=12|0*359006|
-camera_control=12|0*379395|
+camera_control=12|0*382647|
 camera_tb=12|0*379736||0x10
 expose=12|0*101850||0x10
 exposure_control=12|0*101619||0x10
