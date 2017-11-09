@@ -15,7 +15,7 @@ reg exp_finished, adc_conversion, adc_conversion_state;	 //Exp_finished = TRUE w
 //adc_conversion_state = TRUE when the first inputs have been read and translated
 
 parameter state_array_size = 2, exp_array_size = 5;			//The number of states is 3, so 2 bit is designated for the state-coutner. The exposure-time is max. 30ms, so a 5-bit register is needed.
-parameter num_adc_read_cycles = 5;							//The number of clock cycles the ADC has to read the input. Assumed to be 5ms.
+parameter num_adc_read_cycles = 3;							//The number of clock cycles the ADC has to read the input. Assumed to be 5ms.
 parameter idle = 2'b00, capture = 2'b01, convert = 2'b11;   //Defining the different states of the state-machine.
 
 reg [state_array_size-1:0] state; 							//Array for the different states
@@ -69,25 +69,26 @@ begin: FSM
 				$display ("Exposing");
 			end else if (exp_count >= exp_time) begin  
 				expose <= 0;
-				exp_finished <= 1;	
+				exp_finished <= 1;
+				$display("Exposure finished");
+				state <= convert;					  //After the exposure is done the state-machien goes into the conversion state.
 			end	  
 		end	
-		else if (exp_finished == 1) begin     		   //After the exposure is done the state-machien goes into the conversion state.
-			$display("Exposure finished");
-			state <= convert;
-		end
 	convert:
 		  if (adc_conversion == 0) begin									//As long as the conversion is not done, the program converts from the two rows of 
 			$display("Converting");											//amplifiers. Which row is read is controlled by adc_conversion_state which is 0 for row
 			  if (adc_conversion_state == 0) begin							//1 and 1 for row 2. 
 				$display("Converting row 1");
-				if (adc_read_cycle < num_adc_read_cycles) begin	  			//The ADC has 5 clock cycles to read the output of the amplifiers. This is not required
-					adc <= 1;												//by the assignment. When the counter has not reached the limit, the ADC and NRE1/2 signal
-					nre1 <= 0;												//is active. (The NRE gets 0 as it is a PMOS). 
-					adc_read_cycle <= adc_read_cycle + 1;
-				end else if (adc_read_cycle >= num_adc_read_cycles) begin	//After the ADC has read for 5 cycles,  the ADC is turned off to give it a rest between reading 
-					adc <= 0;												//samples. The conversion state is changed and the cycle counter is reset.
-					nre1 <= 1;
+				if (adc_read_cycle < num_adc_read_cycles) begin	  			//The ADC has 5 clock cycles to read the output of the amplifiers. This is not required																		
+					if (adc_read_cycle == 1) begin 							//by the assignment. When the counter has not reached the limit, the ADC and NRE1/2 signal
+						adc <= 1;											//is active. (The NRE gets 0 as it is a PMOS).
+					end else begin
+						adc <= 0;
+					end
+					nre1 <= 0;												 
+					adc_read_cycle <= adc_read_cycle + 1;					
+				end else if (adc_read_cycle >= num_adc_read_cycles) begin	//After the ADC has read for 5 cycles,  the ADC is turned off to give it a rest between reading 																	
+					nre1 <= 1;												//samples. The conversion state is changed and the cycle counter is reset.
 					adc_conversion_state <= 1;
 					adc_read_cycle <= 0;	   
 				end
@@ -95,11 +96,14 @@ begin: FSM
 			if (adc_conversion_state == 1) begin  							//The same as row 1, but after it is finished reading the ADC-conversion is complete
 				$display("Converting row 2");								//and the state is changed to idle.
 				if (adc_read_cycle < num_adc_read_cycles) begin	  
-					adc <= 1;
+					if (adc_read_cycle == 1) begin 
+						adc <= 1;
+					end else begin
+						adc <= 0;
+					end
 					nre2 <= 0;		
 					adc_read_cycle <= adc_read_cycle + 1;  	
 				end else if (adc_read_cycle >= num_adc_read_cycles) begin	 
-					adc <= 0;
 					nre2 <= 1;
 					adc_conversion <= 1;  
 				end
