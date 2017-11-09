@@ -1,23 +1,23 @@
-timestamp=1510156431044
+timestamp=1510236106239
 
 [~A]
-LastVerilogToplevel=fulladdertb
-ModifyID=140
+LastVerilogToplevel=camera_tb
+ModifyID=147
 Version=74
-c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v=0*332491*333938
+c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v=0*373107*374586
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_adder_tb.v=0*57960*59082
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_adder_tb.v_full_adder.v=0*62485*63603
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_camera_tb.v=0*190033*191460
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_camera_tb.v_adder_tb.v=0*170327*172021
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_camera_tb.v_adder_tb.v_full_adder.v=0*359453*362072
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/adder_tb.v=0*95040*95754
-c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/camera_tb.v=0*330337*331324
+c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/camera_tb.v=0*377598*378569
 
 [$root]
-A/$root=22|||1*718941
-BinI32/$root=3*559153
-SLP=3*559257
-Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216ec9f89ddb34dc584610c26ff1b37a2de
+A/$root=22|||1*751146
+BinI32/$root=3*596308
+SLP=3*596412
+Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92164a5e31aa06060649da61f028ed28f5ba
 
 [Full_Adder]
 A/Full_Adder=22|./../src/full_adder.v|42|1*729252
@@ -34,18 +34,18 @@ SLP=3*568103
 Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|473d9258e8587eb705a1446133b6368c79e0a835edda078724375eda13f131559328fba3cc3a9a2f7a1b9272ea9a286b
 
 [camera_control]
-A/camera_control=22|./../src/Main.v|3|1*719347
-BinI32/camera_control=3*559325
+A/camera_control=22|./../src/Main.v|3|1*744668
+BinI32/camera_control=3*587728
 R=./../src/Main.v|3
-SLP=3*562275
-Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3ec2255110f63325f288f546e8317168985b512a1ae468c26b20d048f77dbfb5d3b854cf7c2e3a788e4a9b20411ccf8
+SLP=3*590731
+Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3ec2255110f63325f288f546e8317168985b512a1ae468c26b20d048f77dbfbea0d44bfd140e8066de160a64d379667
 
 [camera_tb]
-A/camera_tb=22|./../src/camera_tb.v|23|1*722628
-BinI32/camera_tb=3*563935
+A/camera_tb=22|./../src/camera_tb.v|23|1*751552
+BinI32/camera_tb=3*596480
 R=./../src/camera_tb.v|23
-SLP=3*565583
-Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|2bfc54544660e416bf746abaafa54b07c105f0e4b87b903fc2efc7594eeb9f574de731413a157beb16c81d90384ea2f6
+SLP=3*599460
+Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|2bfc54544660e416bf746abaafa54b07c105f0e4b87b903fc2efc7594eeb9f5700b2fc326dabd7965dc6c835da29b270
 
 [expose]
 A/expose=22|./../src/Main.v|105|1*166524
@@ -69,16 +69,16 @@ SLP=3*567464
 Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3aba5436d60dc2a1995213cd7debcd3ae168486e3641c10833b56b3ec7ac7990f3833e72088fb6ebc5dfc5387a039b8
 
 [~MFT]
-0=10|0DIC-project.mgf|362072|245066
-1=12|1DIC-project.mgf|729252|717221
-3=24|3DIC-project.mgf|569025|558712
+0=6|0DIC-project.mgf|378569|257919
+1=4|1DIC-project.mgf|751552|741560
+3=8|3DIC-project.mgf|599460|588174
 
 [~U]
-$root=12|0*358060|
+$root=12|0*377171|
 Full_Adder=12|0*359255|
 Full_Adder_8bit=12|0*359006|
-camera_control=12|0*358290|
-camera_tb=12|0*358631||0x10
+camera_control=12|0*372766|
+camera_tb=12|0*377401||0x10
 expose=12|0*101850||0x10
 exposure_control=12|0*101619||0x10
 fulladdertb=12|0*358828||0x10
