@@ -37,15 +37,15 @@ begin: FSM
 	end else
 	case(state)
 	idle: 				
-		if (init == 1'b1) begin									
+		if (init == 1'b1 && reset == 1'b1) begin									
 			$display ("Initialising");							//Change state to Capture when idle is high.
 			state <= capture;
-		end else if (exp_inc == 1'b1) begin						//Increase the exposure time with 1ms every clock cycle the button is pressed	
+		end else if (exp_inc == 1'b1 && exp_dec == 1'b0) begin						//Increase the exposure time with 1ms every clock cycle the button is pressed	
 			if (exp_time < 30) begin	 					  	//as long as the exposure time is smaller than 30.
 				$display ("Exposure time increased by 1");
 				exp_time <= exp_time + 1;						   
 			end
-		end else if (exp_dec == 1'b1) begin	   				    //Decrease the exposure time with 1ms every clock cycle the button is pressed
+		end else if (exp_dec == 1'b1 && exp_inc == 1'b0) begin	   				    //Decrease the exposure time with 1ms every clock cycle the button is pressed
 			if (exp_time > 2) begin								//as long as the exposure time is bigger than 2.
 			  	$display ("Exposure time decreased by 1");
 				exp_time <= exp_time - 1;	
@@ -63,6 +63,7 @@ begin: FSM
 		if (exp_finished == 0) begin	   
 			$display ("Expose = 1, Erase = 0");
 			expose <= 1;							   //The camera is in expose-mode until the counter exp_count has reached the specified exposure time.
+			erase <= 0;
 			if (exp_count < exp_time) begin			   //The count can be done every clock cycle as long as the clock frequency is equal to the change in time.
 				exp_count <= exp_count + 1;
 				$display ("Exposing");
