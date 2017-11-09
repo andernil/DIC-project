@@ -1,0 +1,1056 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+camera_tb camera_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100us.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 27 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5542 kB (elbread=1280 elab2=4117 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\git\DIC-project\Verilog\DIC-project\src\wave.asdb
+#  18:47, 09 November 2017
+#  Simulation has been initialized
+# 12 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/git/DIC-project/Verilog/DIC-project/src/wave.asdb'.
+run
+# KERNEL: time =  0, clk_in =0, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  1, clk_in =1, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  1, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: Reset enabled
+# KERNEL: time =  2, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  2, clk_in =0, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  x, adc_read_cycle = x
+# KERNEL: State: Idle
+# KERNEL: time =  3, clk_in =1, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  3, clk_in =0, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: State: Idle
+# KERNEL: time =  4, clk_in =1, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  4, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  5, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  5, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  6, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 17, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  6, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 17, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  7, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 18, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  7, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 18, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  8, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 19, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  8, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 19, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  9, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 20, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  9, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 20, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 10, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 21, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 10, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 21, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 11, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 22, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 11, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 22, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 12, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 23, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 12, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 23, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 13, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 24, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 13, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 24, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 14, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 14, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 15, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 26, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 15, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 26, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 16, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 27, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 16, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 27, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 17, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 28, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 17, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 28, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 18, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 29, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 18, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 29, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 19, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 19, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 20, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 20, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 21, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 21, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 22, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 22, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 23, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 23, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 24, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 24, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Reset enabled
+# KERNEL: time = 25, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 25, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 26, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 26, clk_in =0, init_in=1, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Initialising
+# KERNEL: time = 27, clk_in =1, init_in=1, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 27, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 28, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  1, adc_read_cycle = 0
+# KERNEL: time = 28, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  1, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 29, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  2, adc_read_cycle = 0
+# KERNEL: time = 29, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  2, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 30, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  3, adc_read_cycle = 0
+# KERNEL: time = 30, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  3, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 31, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  4, adc_read_cycle = 0
+# KERNEL: time = 31, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  4, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 32, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  5, adc_read_cycle = 0
+# KERNEL: time = 32, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  5, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 33, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  6, adc_read_cycle = 0
+# KERNEL: time = 33, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  6, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 34, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  7, adc_read_cycle = 0
+# KERNEL: time = 34, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  7, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 35, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  8, adc_read_cycle = 0
+# KERNEL: time = 35, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  8, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 36, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  9, adc_read_cycle = 0
+# KERNEL: time = 36, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  9, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 37, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 10, adc_read_cycle = 0
+# KERNEL: time = 37, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 10, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 38, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 11, adc_read_cycle = 0
+# KERNEL: time = 38, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 11, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 39, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 12, adc_read_cycle = 0
+# KERNEL: time = 39, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 12, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 40, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 13, adc_read_cycle = 0
+# KERNEL: time = 40, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 13, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 41, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 14, adc_read_cycle = 0
+# KERNEL: time = 41, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 14, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 42, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 15, adc_read_cycle = 0
+# KERNEL: time = 42, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 15, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 43, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 43, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: time = 44, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 44, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Exposure finished
+# KERNEL: time = 45, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 45, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 46, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: time = 46, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 47, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: time = 47, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 48, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: time = 48, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 49, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: time = 49, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 50, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 50, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 51, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 51, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 52, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: time = 52, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 53, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: time = 53, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 54, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: time = 54, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 55, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: time = 55, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 56, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 56, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 57, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 57, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Conversion finished
+# KERNEL: time = 58, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 58, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 59, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 17, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 59, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 17, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 60, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 18, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 60, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 18, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 61, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 19, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 61, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 19, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 62, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 20, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 62, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 20, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 63, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 21, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 63, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 21, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 64, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 22, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 64, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 22, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 65, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 23, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 65, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 23, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 66, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 24, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 66, clk_in =0, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 24, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 67, clk_in =1, init_in=0, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 25, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 67, clk_in =0, init_in=0, reset_in=1, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 25, exp_count = 16, adc_read_cycle = 5
+# KERNEL: State: Idle
+# KERNEL: time = 68, clk_in =1, init_in=0, reset_in=1, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 68, clk_in =0, init_in=0, reset_in=1, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: State: Idle
+# KERNEL: time = 69, clk_in =1, init_in=0, reset_in=1, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# RUNTIME: Info: RUNTIME_0068 camera_tb.v (62): $finish called.
+# KERNEL: Time: 69 ms,  Iteration: 0,  Instance: /camera_tb,  Process: @INITIAL#48_1@.
+# KERNEL: stopped at time: 69 ms
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+camera_tb camera_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work DIC-project $dsn/src/Main.v $dsn/src/camera_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/git/DIC-project/Verilog/DIC-project/src/Main.v, ln 38).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: camera_tb.
+# $root top modules: fulladdertb exposure_control expose camera_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100us.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.2 [s]
+# SLP: Finished : 1.2 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 27 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5538 kB (elbread=1280 elab2=4113 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\git\DIC-project\Verilog\DIC-project\src\wave.asdb
+#  19:02, 09 November 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/git/DIC-project/Verilog/DIC-project/src/wave.asdb'.
+run
+# KERNEL: time =  0, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  1, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  1, clk_in =0, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: Reset enabled
+# KERNEL: time =  2, clk_in =1, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  2, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  x, adc_read_cycle = x
+# KERNEL: State: Idle
+# KERNEL: time =  3, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  3, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: State: Idle
+# KERNEL: time =  4, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  4, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  5, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  5, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  6, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 17, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  6, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 17, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  7, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 18, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  7, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 18, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  8, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 19, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  8, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 19, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  9, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 20, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  9, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 20, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 10, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 21, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 10, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 21, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 11, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 22, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 11, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 22, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 12, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 23, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 12, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 23, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 13, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 24, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 13, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 24, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 14, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 14, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 15, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 26, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 15, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 26, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 16, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 27, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 16, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 27, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 17, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 28, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 17, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 28, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 18, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 29, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 18, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 29, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 19, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 19, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 20, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 20, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 21, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 21, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 22, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 22, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 23, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 23, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 24, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 24, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Reset enabled
+# KERNEL: time = 25, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 25, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 26, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 26, clk_in =0, init_in=1, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Initialising
+# KERNEL: time = 27, clk_in =1, init_in=1, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 27, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 28, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  1, adc_read_cycle = 0
+# KERNEL: time = 28, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  1, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 29, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  2, adc_read_cycle = 0
+# KERNEL: time = 29, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  2, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 30, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  3, adc_read_cycle = 0
+# KERNEL: time = 30, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  3, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 31, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  4, adc_read_cycle = 0
+# KERNEL: time = 31, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  4, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 32, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  5, adc_read_cycle = 0
+# KERNEL: time = 32, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  5, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 33, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  6, adc_read_cycle = 0
+# KERNEL: time = 33, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  6, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 34, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  7, adc_read_cycle = 0
+# KERNEL: time = 34, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  7, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 35, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  8, adc_read_cycle = 0
+# KERNEL: time = 35, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  8, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 36, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  9, adc_read_cycle = 0
+# KERNEL: time = 36, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  9, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 37, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 10, adc_read_cycle = 0
+# KERNEL: time = 37, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 10, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 38, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 11, adc_read_cycle = 0
+# KERNEL: time = 38, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 11, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 39, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 12, adc_read_cycle = 0
+# KERNEL: time = 39, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 12, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 40, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 13, adc_read_cycle = 0
+# KERNEL: time = 40, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 13, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 41, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 14, adc_read_cycle = 0
+# KERNEL: time = 41, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 14, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 42, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 15, adc_read_cycle = 0
+# KERNEL: time = 42, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 15, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 43, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 43, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: time = 44, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 44, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Exposure finished
+# KERNEL: time = 45, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 45, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 46, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: time = 46, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 47, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: time = 47, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 48, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: time = 48, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 49, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: time = 49, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 50, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 50, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 51, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 51, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 52, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: time = 52, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 53, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: time = 53, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 54, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: time = 54, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 55, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: time = 55, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 56, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 56, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 57, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 57, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Conversion finished
+# KERNEL: time = 58, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 58, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 59, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 17, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 59, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 17, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 60, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 18, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 60, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 18, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 61, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 19, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 61, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 19, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 62, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 20, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 62, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 20, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 63, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 21, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 63, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 21, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 64, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 22, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 64, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 22, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 65, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 23, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 65, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 23, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 66, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 24, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 66, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 24, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 67, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 25, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 67, clk_in =0, init_in=0, reset_in=0, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 25, exp_count = 16, adc_read_cycle = 5
+# KERNEL: State: Idle
+# KERNEL: time = 68, clk_in =1, init_in=0, reset_in=0, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 68, clk_in =0, init_in=0, reset_in=0, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: State: Idle
+# KERNEL: time = 69, clk_in =1, init_in=0, reset_in=0, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# RUNTIME: Info: RUNTIME_0068 camera_tb.v (62): $finish called.
+# KERNEL: Time: 69 ms,  Iteration: 0,  Instance: /camera_tb,  Process: @INITIAL#48_1@.
+# KERNEL: stopped at time: 69 ms
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# 12 signal(s) traced.
+run
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+camera_tb camera_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100us.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 27 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5538 kB (elbread=1280 elab2=4113 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\git\DIC-project\Verilog\DIC-project\src\wave.asdb
+#  19:03, 09 November 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/git/DIC-project/Verilog/DIC-project/src/wave.asdb'.
+run
+# KERNEL: time =  0, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  1, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  1, clk_in =0, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: Reset enabled
+# KERNEL: time =  2, clk_in =1, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  2, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  x, adc_read_cycle = x
+# KERNEL: State: Idle
+# KERNEL: time =  3, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  3, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: State: Idle
+# KERNEL: time =  4, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  4, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  5, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  5, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  6, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 17, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  6, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 17, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  7, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 18, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  7, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 18, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  8, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 19, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  8, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 19, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  9, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 20, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  9, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 20, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 10, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 21, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 10, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 21, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 11, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 22, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 11, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 22, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 12, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 23, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 12, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 23, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 13, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 24, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 13, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 24, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 14, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 14, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 15, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 26, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 15, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 26, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 16, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 27, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 16, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 27, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 17, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 28, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 17, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 28, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 18, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 29, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 18, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 29, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 19, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 19, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 20, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 20, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 21, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 21, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 22, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 22, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 23, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 23, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 24, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 24, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Reset enabled
+# KERNEL: time = 25, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 25, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 26, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 26, clk_in =0, init_in=1, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Initialising
+# KERNEL: time = 27, clk_in =1, init_in=1, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 27, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 28, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  1, adc_read_cycle = 0
+# KERNEL: time = 28, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  1, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 29, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  2, adc_read_cycle = 0
+# KERNEL: time = 29, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  2, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 30, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  3, adc_read_cycle = 0
+# KERNEL: time = 30, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  3, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 31, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  4, adc_read_cycle = 0
+# KERNEL: time = 31, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  4, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 32, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  5, adc_read_cycle = 0
+# KERNEL: time = 32, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  5, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 33, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  6, adc_read_cycle = 0
+# KERNEL: time = 33, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  6, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 34, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  7, adc_read_cycle = 0
+# KERNEL: time = 34, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  7, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 35, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  8, adc_read_cycle = 0
+# KERNEL: time = 35, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  8, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 36, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  9, adc_read_cycle = 0
+# KERNEL: time = 36, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  9, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 37, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 10, adc_read_cycle = 0
+# KERNEL: time = 37, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 10, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 38, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 11, adc_read_cycle = 0
+# KERNEL: time = 38, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 11, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 39, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 12, adc_read_cycle = 0
+# KERNEL: time = 39, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 12, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 40, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 13, adc_read_cycle = 0
+# KERNEL: time = 40, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 13, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 41, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 14, adc_read_cycle = 0
+# KERNEL: time = 41, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 14, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 42, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 15, adc_read_cycle = 0
+# KERNEL: time = 42, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 15, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 43, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 43, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: time = 44, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 44, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Exposure finished
+# KERNEL: time = 45, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 45, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 46, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: time = 46, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 47, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: time = 47, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 48, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: time = 48, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 49, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: time = 49, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 50, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 50, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 51, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 51, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 52, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: time = 52, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 53, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: time = 53, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 54, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: time = 54, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 55, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: time = 55, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 56, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 56, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 57, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 57, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Conversion finished
+# KERNEL: time = 58, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 58, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 59, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 17, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 59, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 17, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 60, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 18, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 60, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 18, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 61, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 19, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 61, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 19, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 62, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 20, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 62, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 20, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 63, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 21, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 63, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 21, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 64, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 22, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 64, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 22, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 65, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 23, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 65, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 23, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 66, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 24, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 66, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 24, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 67, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 25, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 67, clk_in =0, init_in=0, reset_in=0, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 25, exp_count = 16, adc_read_cycle = 5
+# KERNEL: State: Idle
+# KERNEL: time = 68, clk_in =1, init_in=0, reset_in=0, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 68, clk_in =0, init_in=0, reset_in=0, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: State: Idle
+# KERNEL: time = 69, clk_in =1, init_in=0, reset_in=0, exp_inc_in=0, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# RUNTIME: Info: RUNTIME_0068 camera_tb.v (62): $finish called.
+# KERNEL: Time: 69 ms,  Iteration: 0,  Instance: /camera_tb,  Process: @INITIAL#48_1@.
+# KERNEL: stopped at time: 69 ms
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+camera_tb camera_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100us.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 27 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5538 kB (elbread=1280 elab2=4113 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\git\DIC-project\Verilog\DIC-project\src\wave.asdb
+#  19:03, 09 November 2017
+#  Simulation has been initialized
+# 12 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/git/DIC-project/Verilog/DIC-project/src/wave.asdb'.
+run
+# KERNEL: time =  0, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  1, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  1, clk_in =0, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=x, nre2_out=x, expose_out=x, erase_out=x, adc_out= x, exp_time=  x, exp_count =  x, adc_read_cycle = x
+# KERNEL: Reset enabled
+# KERNEL: time =  2, clk_in =1, init_in=x, reset_in=1, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  x, adc_read_cycle = x
+# KERNEL: time =  2, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  x, adc_read_cycle = x
+# KERNEL: State: Idle
+# KERNEL: time =  3, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=x, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  3, clk_in =0, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: State: Idle
+# KERNEL: time =  4, clk_in =1, init_in=x, reset_in=0, exp_inc_in=x, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  4, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  5, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  5, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  6, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 17, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  6, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 17, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  7, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 18, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  7, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 18, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  8, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 19, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  8, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 19, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time =  9, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 20, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time =  9, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 20, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 10, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 21, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 10, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 21, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 11, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 22, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 11, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 22, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 12, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 23, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 12, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 23, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 13, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 24, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 13, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 24, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 14, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 14, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 25, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 15, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 26, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 15, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 26, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 16, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 27, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 16, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 27, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 17, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 28, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 17, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 28, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 18, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 29, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 18, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 29, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 19, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 19, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 20, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 20, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 21, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 21, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 22, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 22, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 23, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 23, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 24, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 24, clk_in =0, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 30, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Reset enabled
+# KERNEL: time = 25, clk_in =1, init_in=x, reset_in=1, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 25, clk_in =0, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 15, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 26, clk_in =1, init_in=x, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 26, clk_in =0, init_in=1, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Initialising
+# KERNEL: time = 27, clk_in =1, init_in=1, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: time = 27, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=1, adc_out= 0, exp_time= 16, exp_count =  0, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 28, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  1, adc_read_cycle = 0
+# KERNEL: time = 28, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  1, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 29, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  2, adc_read_cycle = 0
+# KERNEL: time = 29, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  2, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 30, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  3, adc_read_cycle = 0
+# KERNEL: time = 30, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  3, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 31, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  4, adc_read_cycle = 0
+# KERNEL: time = 31, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  4, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 32, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  5, adc_read_cycle = 0
+# KERNEL: time = 32, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  5, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 33, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  6, adc_read_cycle = 0
+# KERNEL: time = 33, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  6, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 34, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  7, adc_read_cycle = 0
+# KERNEL: time = 34, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  7, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 35, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  8, adc_read_cycle = 0
+# KERNEL: time = 35, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  8, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 36, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  9, adc_read_cycle = 0
+# KERNEL: time = 36, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count =  9, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 37, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 10, adc_read_cycle = 0
+# KERNEL: time = 37, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 10, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 38, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 11, adc_read_cycle = 0
+# KERNEL: time = 38, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 11, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 39, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 12, adc_read_cycle = 0
+# KERNEL: time = 39, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 12, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 40, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 13, adc_read_cycle = 0
+# KERNEL: time = 40, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 13, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 41, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 14, adc_read_cycle = 0
+# KERNEL: time = 41, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 14, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 42, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 15, adc_read_cycle = 0
+# KERNEL: time = 42, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 15, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: Exposing
+# KERNEL: time = 43, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 43, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=1, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Expose = 1, Erase = 0
+# KERNEL: time = 44, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 44, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Exposure finished
+# KERNEL: time = 45, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 45, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 46, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: time = 46, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 47, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: time = 47, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 48, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: time = 48, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 49, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: time = 49, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 50, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 50, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=0, nre2_out=1, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Converting
+# KERNEL: Converting row 1
+# KERNEL: time = 51, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: time = 51, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 0
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 52, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: time = 52, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 1
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 53, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: time = 53, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 2
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 54, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: time = 54, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 3
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 55, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: time = 55, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 4
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 56, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 56, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=0, expose_out=0, erase_out=0, adc_out= 1, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Converting
+# KERNEL: Converting row 2
+# KERNEL: time = 57, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 57, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Conversion finished
+# KERNEL: time = 58, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 58, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 16, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 59, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 17, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 59, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 17, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 60, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 18, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 60, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 18, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 61, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 19, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 61, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 19, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 62, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 20, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 62, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 20, exp_count = 16, adc_read_cycle = 5
+# KERNEL: Exposure time increased by 1
+# KERNEL: time = 63, clk_in =1, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 21, exp_count = 16, adc_read_cycle = 5
+# KERNEL: time = 63, clk_in =0, init_in=0, reset_in=0, exp_inc_in=1, exp_dec_in=0, nre1_out=1, nre2_out=1, expose_out=0, erase_out=0, adc_out= 0, exp_time= 21, exp_cou

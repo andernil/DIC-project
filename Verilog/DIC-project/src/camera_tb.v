@@ -48,13 +48,13 @@ always
 initial
 begin	
 	clk_in = 1'b0;		   	//Reset clock
-  	reset_in = 1'b1;		
-  	#1; reset_in = 1'b0;	//Reset is active-low
-	#1; reset_in = 1'b1;		
+  	reset_in = 1'b0;		
+  	#1; reset_in = 1'b1;	//Reset is active-high
+	#1; reset_in = 1'b0;		
 	#1; exp_dec_in = 1'b0;
 	#1; exp_inc_in = 1'b1;	//Increase exposure time 1ms for each clock cycle
-	#20; reset_in = 1'b0;		   			//Wait 20ms before continuing, giving an exposure time of 30ms.
-	#1; reset_in = 1'b1;
+	#20; reset_in = 1'b1;		   			//Wait 20ms before continuing, giving an exposure time of 30ms.
+	#1; reset_in = 1'b0;
 	#1; init_in = 1'b1;	    //Initialise the camera operation
 	#1; init_in = 1'b0;
 	#40; exp_inc_in = 1'b0;

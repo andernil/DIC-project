@@ -25,7 +25,7 @@ reg [2:0] adc_read_cycle;									//Array for the number of read-cycle counter f
 
 always @(posedge clk)
 begin: FSM
-	if (reset == 1'b0) begin	  						  //Reset is active-low. Resets all output varaibles.
+	if (reset == 1'b1) begin	  						  //Reset is active-low. Resets all output varaibles.
 		$display ("Reset enabled");
 	    state <= idle;
 		nre1 <= 1;
@@ -37,7 +37,7 @@ begin: FSM
 	end else
 	case(state)
 	idle: 				
-		if (init == 1'b1 && reset == 1'b1) begin									
+		if (init == 1'b1 && reset == 1'b0) begin									
 			$display ("Initialising");							//Change state to Capture when idle is high.
 			state <= capture;
 		end else if (exp_inc == 1'b1 && exp_dec == 1'b0) begin						//Increase the exposure time with 1ms every clock cycle the button is pressed	

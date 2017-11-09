@@ -1,12 +1,13 @@
 MESSAGE "Pass 1. Scanning modules hierarchy."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
 BEGINPROGRESS Compiling...
+UPDATEPROGRESS 17
 UPDATEPROGRESS 35
-MESSAGE_SP VCP2113 "Module camera_control found in current working library."
 MESSAGE "Pass 2. Processing instantiations."
 UPDATEPROGRESS 45
 MESSAGE "Pass 3. Processing behavioral statements."
 UPDATEPROGRESS 80
+MESSAGE "Parameters in case labels, will not check for overlapping labels (C:/git/DIC-project/Verilog/DIC-project/src/Main.v, ln 38)."
 MESSAGE "Running Optimizer."
 MESSAGE "ELB/DAG code generating."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
