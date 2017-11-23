@@ -1,25 +1,25 @@
-timestamp=1510252048727
+timestamp=1511442869670
 
 [~A]
 C:/git/DIC-project/Verilog/DIC-project/src/Main.v=0*395598*397048
 C:/git/DIC-project/Verilog/DIC-project/src/Main.v_camera_tb.v=0*379933*381875
 LastVerilogToplevel=camera_tb
-ModifyID=154
+ModifyID=180
 Version=74
-c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v=0*373107*374586
+c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v=0*457881*459472
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_adder_tb.v=0*57960*59082
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_adder_tb.v_full_adder.v=0*62485*63603
-c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_camera_tb.v=0*190033*191460
+c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_camera_tb.v=0*474027*476174
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_camera_tb.v_adder_tb.v=0*170327*172021
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/Main.v_camera_tb.v_adder_tb.v_full_adder.v=0*359453*362072
 c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/adder_tb.v=0*95040*95754
-c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/camera_tb.v=0*377598*378569
+c:/Users/Anders/Documents/AIM-spice/DIK-project/Verilog/DIC-project/src/camera_tb.v=0*471670*472657
 
 [$root]
-A/$root=22|||1*778893
-BinI32/$root=3*632510
-SLP=3*632614
-Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92161a508e292e6a6cd795ecf49eb5464650
+A/$root=22|||1*918483
+BinI32/$root=3*796230
+SLP=3*796334
+Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92160517d6e53571998f20371760e485bc8d
 
 [Full_Adder]
 A/Full_Adder=22|./../src/full_adder.v|42|1*729252
@@ -36,18 +36,18 @@ SLP=3*568103
 Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|473d9258e8587eb705a1446133b6368c79e0a835edda078724375eda13f131559328fba3cc3a9a2f7a1b9272ea9a286b
 
 [camera_control]
-A/camera_control=22|./../src/Main.v|3|1*779299
-BinI32/camera_control=3*632682
+A/camera_control=22|./../src/Main.v|3|1*918889
+BinI32/camera_control=3*796402
 R=./../src/Main.v|3
-SLP=3*635707
-Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3ec2255110f63325f288f546e8317168985b512a1ae468c26b20d048f77dbfb5f3864cb53ab37e35d38d25db48d8f05
+SLP=3*799571
+Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3ec2255110f63325f288f546e8317168985b512a1ae468c26b20d048f77dbfb9fddf31d3c062d03f4dbe8c5a36310a8
 
 [camera_tb]
-A/camera_tb=22|./../src/camera_tb.v|23|1*758153
-BinI32/camera_tb=3*605127
+A/camera_tb=22|./../src/camera_tb.v|23|1*922341
+BinI32/camera_tb=3*801372
 R=./../src/camera_tb.v|23
-SLP=3*606891
-Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|2bfc54544660e416bf746abaafa54b07c105f0e4b87b903fc2efc7594eeb9f571fe03429ad88b6177eeb54c7dcd037b1
+SLP=3*803085
+Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|2bfc54544660e416bf746abaafa54b07c105f0e4b87b903fc2efc7594eeb9f5730b100a764bdc4dd0cbc760add006e2d
 
 [expose]
 A/expose=22|./../src/Main.v|105|1*166524
@@ -71,16 +71,16 @@ SLP=3*567464
 Version=10.3.3559.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3aba5436d60dc2a1995213cd7debcd3ae168486e3641c10833b56b3ec7ac7990f3833e72088fb6ebc5dfc5387a039b8
 
 [~MFT]
-0=6|0DIC-project.mgf|397048|267659
-1=4|1DIC-project.mgf|779299|769545
-3=8|3DIC-project.mgf|635707|626557
+0=7|0DIC-project.mgf|476174|328797
+1=6|1DIC-project.mgf|922341|912055
+3=12|3DIC-project.mgf|803085|792816
 
 [~U]
-$root=12|0*395024|
+$root=12|0*473253|
 Full_Adder=12|0*359255|
 Full_Adder_8bit=12|0*359006|
-camera_control=12|0*395254|
-camera_tb=12|0*379736||0x10
+camera_control=12|0*473483|
+camera_tb=12|0*473830||0x10
 expose=12|0*101850||0x10
 exposure_control=12|0*101619||0x10
 fulladdertb=12|0*358828||0x10

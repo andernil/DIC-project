@@ -24,9 +24,9 @@ mexpose n1 expose n2 0 nm w=5u l=1u			!Define the expose-NMOS m1 from wire N1 to
 merase n2 erase 0 0 nm w=10u l=1u			!Define the erase-NMOS m2 from wire N2 to VSS (ground)
 cs n2 0 2p							!Define the charge-capacitor Cs from wire N2 to VSS (ground)
 
-mload out out vdd vdd pm w=2u l=5u		!Define the load-PMOS from VDD to out-wire.
+mload out out vdd vdd pm w=4u l=5u		!Define the load-PMOS from VDD to out-wire.
 cc out 0 3p						!Define the parasitic capacitance of the load-wire
-mnre n3 nre outa vdd pm w=5u l=1u		!Define the NRE-NMOS M4 from the load-wire to N3
+mnre n3 nre outa vdd pm w=5u l=1u		!Define the NRE-PMOS M4 from the load-wire to N3
 m3 0 n2 n3 vdd pm w=10u l=1u 			!Define the amplifier-PMOS M3 from N3 to VSS (ground)
 [tran]
 0.1

@@ -54,12 +54,8 @@ Selected=
 [Files]
 /Main.v=-1
 /camera_tb.v=-1
-/adder_tb.v=-1
-/full_adder.v=-1
 
 [Files.Data]
 .\src\Main.v=Verilog Source Code
 .\src\camera_tb.v=Verilog Source Code
-.\src\adder_tb.v=Verilog Source Code
-.\src\full_adder.v=Verilog Source Code
 
